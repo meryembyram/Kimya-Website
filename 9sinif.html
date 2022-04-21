@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kimya'nın Mucizeleri</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">  
+    <link href="css/animate.min.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+	<header id="header">      
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+             </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <h1><img src="images/logo.png" alt="logo"></h1>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li class="dropdown"><a href="#">Kimya<i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="hakkinda.html">Hakkında</a></li>
+                                <li><a href="kimyager.html">Kimyagerler</a></li>
+                            </ul>
+                        </li>                  
+                        <li class="dropdown"><a href="konular.html">Konular <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li class="active"><a href="9sinif.html">9. Sınıf</a></li>
+                                <li><a href="10sinif.html">10. Sınıf</a></li>
+                                <li><a href="11sinif.html">11. Sınıf</a></li>
+                                <li><a href="12sinif.html">12. Sınıf</a></li>
+                            </ul>
+                        </li>                        
+                        <li><a href="iletisim.html">Iletisim</a></li>                     
+                    </ul>
+                </div>
+                <div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">9. Sınıf</h1>
+                            <p>Kimya Konuları</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+    <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <ul class="portfolio-filter text-center">
+                <table border="0">
+                    <tr>
+                       <td>
+                            <li><a class="btn btn-default" href="#simya" data-filter="*">Simyadan Kimyaya</a></li><br>
+                            <li><a class="btn btn-default" href="#bag" data-filter=".design">Kimyasal Baglar</a></li><br>
+                            <li><a class="btn btn-default" href="#bile" data-filter=".mockup">Bilesiklerin Isimlendirilmesi</a></li>
+                            <li><a class="btn btn-default" href="#organik" data-filter="*">Organik ve Inorganik Bilesikler</a></li>
+                       </td>
+                       <td>
+                            <li><a class="btn btn-default" href="#deg" data-filter=".branded">Kimyasal Degismeler</a></li><br>
+                            <li><a class="btn btn-default" href="#reak" data-filter=".design">Reaksiyon Tipleri</a></li>
+                            <li><a class="btn btn-default" href="#poli" data-filter=".folio">Polimerlesme ve Hidroliz</a></li><br>
+                            <li><a class="btn btn-default" href="#kar" data-filter=".logos">Karısımlar Nedir</a></li>
+                       </td>
+                       <td>
+                            <li><a class="btn btn-default" href="#ayrı" data-filter=".mobile">Karısımların Ayrılması</a></li><br>
+                            <li><a class="btn btn-default" href="#cozel" data-filter=".mockup">Çözeltiler Nedir</a></li>
+                            <li><a class="btn btn-default" href="#fak" data-filter=".mobile">Çözünürlüge Etki Eden Faktorler</a></li>
+                       </td>
+                   </tr>
+               </table>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+    <section id="simya" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Simyadan Kimyaya</a></h1>
+                                    <p>Eski çag insanları dört ana elementin varlıgına inanırlardı. Bu dört elementin farklı biçimlerde bir araya gelmesi ile farklı maddelerin olustugunu kabul etmislerdir. Bu düsünce Orta Çagın sonlarına kadar devam etmistir. Aynı dönemde bazı insanlar maddeyi altına dönüstürüp belli bir güce sahip olmayı veya ölümsüzlük iksirini elde ederek ölümü yenmeyi istemislerdir. Insanlar cıva (Hg) ve kursun (Pb) bilesikleri ile bir takım islemler gerçeklestirmislerdir. Bilimsel dayanagı olmayan, sınama-yanılma yoluyla yapılan bu islemler simya olarak isimlendirilmistir. Simyadan kimyaya geçis süreci 18. yüzyılın sonlarında deneysel bulguların kullanılması ile ortaya çıkmıstır.<br>
+                                    <h3><a href="#">Eski Çaglarda Kesfedilen Maddeler</a></h3>
+                                    <ol>
+                                        <li>Insanlar, yıldırımların ormanlara düsmesi, siddetli fırtınalarda agaç dallarının birbirine sürtmesi ve yanardagdan akan lavların olusturdugu dogal yangınlar vb. olaylarla atesi tanıdı.</li>
+                                        <li>Yiyecekleri pigirmek için kap arayısında olan insanoglu sınama-yanılma yoluyla topragı isleyebilecegini gördü ve topraktan kaplar yaptı.</li>
+                                        <li>Insan, atesin maddeleri yaktıgını ve erittigini kesfetmistir. Insanlar bazı maddeleri eritip karıstırarak kullanmaya baslamıslardır.</li>
+                                        <li>Insanlar temel ihtiyaçlarını karsıladıktan sonra dıs görünümüne önem vermeye basladı. Önce avladıkları hayvanların kürkleri ile vücutlarını örterken sonra bu kürkleri isleyerek giyecek ihtiyacını karsılamıstır.</li>
+                                        <li>Güzellesmek için çesitli yöntemlere basvuran insanlar yüzlerini bitkisel ve madensel boyalarla boyamıslardır. Kullandıkları yesil boya maddesinin malahit, siyahın ise toz halindeki kursun sülfür oldugu sanılmaktadır.</li>
+                                        <li>Insanın sınama-yanılma yoluyla kesfettigi maddelerden biri de tuzdur. Eski çag insanları kesfettikleri degisik maddeleri korunma ve tedavi amacıyla kullanmıslardır. Hastalıktan korunma ve tedavi amacıyla bitkiler de kullanılmıstır. Insanoglu ölüme çare bulamamıs fakat sınama-yanılma yoluyla bazı hastalıkları tedavi etmeyi ögrenmistir.</li>
+                                        <li>Bitkileri hastalıkları tedavi etmek için kullanan insanlar elde ettikleri ürünlerin dayanıklılıgını artırmak ve uzun süre bozulmadan saklamak için de çareler aramıslardır. Kükürt buharı ile agartma ve bandırma gibi çesitli yöntemler kullanmıslardır. Kükürt buharı ile agartılan ürünlere kuru kayısı, kuru incir örnek verilebilir.</li>
+                                        <li>Insanoglu giysilerin boyanmasında da bitkileri kullanmıstır. Hayvanların yünlerinden yaptıgı giyecekleri Kıbrıs tası (FeSO4) ve alizarin gibi boyar maddelerle boyamıstır.</li>
+                                    </ol>
+                                    <h3><a href="#">Simya</a></h3>
+                                    <div><a href="#"><img src="images/blog/sim.jpg" class="img-responsive"></a></div><br>
+                                    <p>Insanların zengin olma hayali diger madenleri en degerli maden olan altına çevirme çabasıyla baslar. Ilk Çaglardan beri altın hep degerli olmustur.Degersiz madenleri altına çevirme, bütün hastalıkları iyilestirme ve hayatı sonsuz biçimde uzatacak ölümsüzlük iksiri bulma ugraslarına simya bu isle ugrasanlara da simyacı denir. Simya teorik temelleri olmayan sınama ve yanılmaya dayanan çalısmaları içerdigi ve sistematik bilgi birikimi saglayamadıgı için bilim degildir. Simya, kimyanın bilim öncesindeki biçimidir.Simyacılar hiçbir zaman degersiz madenleri altına dönüstürmeyi basaramasalar da, kimyanın gelisimi için birçok kesiflerde bulunmuslardır. Simyadan, kimya bilimine aktarılan önemli bulgular arasında barut, madenlerin islenmesi, mürekkep, kozmetik, boya üretimi, deri boyanması, seramik, cam üretimi sayılabilir.</p>
+                                    <h3><a href="#">Element Kavramının Tarihsel Gelisimi</a></h3>
+                                    <p>Antik dönemdeki Eski Yunan filozoflarının bir bölümü maddenin sınırsız olarak bölünebilecegini kabul ederken, kimileri de atomlarına kadar parçalanabilecegini ileri sürmüstür. Antik dönemde Platon ve Aristo tarafından düsünceye dayalı, hiçbir deneysel gerçeklik temeline oturmayan bazı kavramlar ortaya atılmıstır.Platon, Dünya'nın elementlerden olustugunu düsünüyordu. Aristo ise tüm maddelerin toprak, hava, ates ve su elementlerinden olustugunu savunmustur. Aristo'ya göre bu elementlerden her biri öteki üçüne dönüstürülebiliyordu.Rönesans döneminde geçmis yılların getirdigi kimyasal bilgi birikimi onların uygulama biçimlerine iliskin bir yönelim dogurdu ve böylece 'uygulamalı kimya' ortaya çıkmıs oldu.Toplumsal gelisimle baglantılı olan yeni toplumsal gereksinimler simyacıların çalısmalarına yansımıstır. Bunun sonucu olarak da kimya artık sanayiye destekçi olarak yönlendirilmeye baslanmıstır. Böylece kimya simyadan ayrılmıs, pratik ve bilimsel bir nitelik kazanmıstır.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="bag" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Kimyasal Baglar</a></h1>
+                                    <p>Bir bagın olusabilmesi için atomlar tek basına bulundukları zamankinden daha kararlı (az enerjiye sahip) olmalıdırlar. Genelleme yapmak gerekirse baglar olusurken dısarıya enerji verirler. Atomlar bag yaparken, elektron dizilislerini soygazlara benzetmeye çalısırlar.Bir atomun yapabilecegi bag sayısı, sahip oldugu veya az enerji ile sahip olabilecegi yarı dolu orbital sayısına esittir. Atomlar birlestigi zaman elektron dagılımındaki degismelerin bir sonucu olarak kimyasal baglar meydana gelir. Üç çesit temel bag vardır. Bu üç bag çesidi sunlardır:<br></p>
+                                    <h3><a href="#">Iyonik Baglar</a></h3>
+                                    <p>Iyonik baglar, elektronlar bir atomdan digerine aktarıldıgı zaman meydana gelen baglara verilen addır. Tepkimeye giren elementlerden birinin atomları, elektron kaybedip pozitif yüklü iyonlara dönüsürken, diger elementin atomları elektron kazanıp negatif yüklü iyon olustururlar. Böylece zıt (artı-eksi) bir sekilde yüklenmis iyonlar arasındaki elektrostatik çekim kuvveti, söz konusu iyonları bir kristal içinde tutar.</p>
+                                    <h3><a href="#">Kovalent Baglar</a></h3>
+                                    <p>Kovalent baglar, elektronların bir atomdan digerine aktarılmaksızın ortaklasa kullanıldıgı baglara denir. Tek kovalent bag, iki atom tarafından bölünmüs yani ortaklasa kullanılan bir elektron çiftinden ibarettir. Moleküller birbirlerine kovalent baglarla baglanmıs atomlardan meydana gelir.</p>
+                                    <h3><a href="#">Metalik Baglar</a></h3>
+                                    <p>Metalik baglar, metal ve alasımlarda bulunan baglardır. Metal atomları üç boyutlu bir yapı içinde düzenlenirler. Bu atomların en dıs elektronları, yapının her tarafında serbestçe dolasır ve atomların birbirlerine baglanmasını saglarlar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="bile" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Bilesiklerin Isimlendirilmesi</a></h1>
+                                    <h3><a href="#">Metal-Ametal Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>METALIN ADI + AMETALIN ADI + "ÜR" EKI<br>Ametal Oksijen ise oksit seklinde isimlendirme yapılır. Ametal hidrojen ise hidrür, azot ise nitrür, kükürt ise sülfür diye okunur.<br>
+                                        <div>
+                                            <a href="#"><img src="images/blog/1.png" class="img-responsive"></a>
+                                            <a href="#"><img src="images/blog/2.png" class="img-responsive"></a>
+                                            <a href="#"><img src="images/blog/3.png" class="img-responsive"></a>
+                                        </div>
+                                    </p>
+                                    <h3><a href="#">Metal-Kök Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>METALIN ADI + KÖKÜN ADI<br>Köklerin olusturdugu bilesikler isimlendirilirken önce metalin adı, sonra metalin adı okunur. Eger metal birden fazla degerlik alıyorsa bilesikteki degerligini adından sonra parantez içinde belirtiriz.</p>
+                                    <h3><a href="#">Ametal-Ametal Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>1.AMETALIN SAYISI + ADI + 2.AMETAIN SAYISI + ADI + "ÜR" EKI<br>Bir ametal ile baska bir ametalin yaptıgı ikili bilesiklerin isimlendirilmesi için birinci ametalin sayısı 1 ise yazılmaz ve okunmaz.
+                                        <div>
+                                            <a href="#"><img src="images/blog/4.png" class="img-responsive"></a>
+                                            <a href="#"><img src="images/blog/5.png" class="img-responsive"></a>
+                                        </div>
+                                    </p>
+                                    <h3><a href="#">Ametal-Kök Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>KÖKÜN ADI + AMETALIN ADI<br>Kök ve Ametalden olusan bilesikler isimlendirilirken önce kökün adı, sonra ametalin adı ve "ür" eki söylenir.</p>
+                                    <h3><a href="#">Kök-Kök Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>KÖKÜN ADI + KÖKÜN ADI<br>Bu tür bilesikler isimlendirilirken önce birinci sonra ikinci kökün adı söylenir.</p>
+                                    <h3><a href="#">Hidratlı Bilesiklerin Isimlendirilmesi</a></h3>
+                                    <p>BILESIGIN ADI + RAKAM + HIDRAT<br>Suyun bazı madenler üzerindeki etkisiyle meydana gelen bilesiklerdir. Bir cismin su ile birlesmesi sonunda meydana gelen bilesige de hidrat denir.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="organik" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Organik ve Inorganik Bilesikler</a></h1>
+                                    <p></p>
+                                    <div>
+                                        <a href="#"><img src="images/blog/temel.jpg" class="img-responsive"></a>
+                                    </div>
+                                    <h3><a href="#">Inorganik Bilesikler</a></h3>
+                                    <p>Canlıların kendi vücutlarında sentezleyemeyip,dısarıdan hazır aldıkları bilesiklerdir. Hem canlı vücudunda hem de cansız ortamda bulunurlar. Küçük moleküllü olup,devamlı ve yeterince bulunması gerekir. Canlılar bu bilesiklere gereksinim duyar. Besin olarak kullanılan inorganik maddeler “mineraller ve su” sindirilemezler. Enerji vermezler. Bunlar düzenleyici maddelerdir. Karbon elementine sahip olmayan tüm moleküller Inorganik Bilesikler olarak adlandırılır:<br>
+                                        <ol>
+                                            <li> Su</li>
+                                            <li> Mineraller</li>
+                                            <li> Tuzlar</li>
+                                            <li> Asitler</li>
+                                            <li> Bazlar</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Organik Bilesikler</a></h3>
+                                    <p><a href="12sinif.html#organik">Organik Bilesikler</a>, genellikle canlıların yapısında bulunan ve hepsi mutlaka karbon atomu tasıyan moleküller. Organik moleküllere örnek olarak proteinleri, karbonhidratları, lipidleri ve nükleik asitleri verebiliriz. Ancak, burada bir yanılgıya düsmeyelim, karbon içeren her bilesik organik olmak zorunda degil. Örnegin, yapısında karbon içeren karbonat, bir inorganik molekül.Inorganik bilesikler ise, sıklıkla karbon tasımayan moleküller. Bunlara örnek olarak da, anyonlar veya katyonlar olarak sınıflandırılan çesitli iyonik bilesikler ile kovalent bilesikleri verebiliriz:<br>
+                                        <ol>
+                                            <li> Karbonhidratlar</li>
+                                            <li> Proteinler</li>
+                                            <li> Yaglar</li>
+                                            <li> Lipidler</li>
+                                            <li> Nükleik Asitler</li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="deg" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Kimyasal Degisimler</a></h1>
+                                    <p>Kimyasal degisim, bütün maddeler atom veya molekül dedigimiz küçük taneciklerden olusur. Maddelerin atom veya molekül yapılarıyla ilgili özelliklere kimyasal özellikler denir. Yanma, çürüme, paslanma, bilesik yapma gibi özellikler kimyasal özelliklerdir. Kimyasal degisimde maddenin aynı zamanda molekül yapısıda degisir. Kimyasal degisimde maddenin geri dönüsümü olmaz. Buna baglı olarak bu özelliklerde meydana gelen degismelere de kimyasal degismeler denir. Kısaca maddenin iç yapısında meydana gelen degismeler kimyasal degismelerdir. Kimyasal degisimin ardından maddenin hem iç yapısı hem de dıs yapısı degisir. Birkaç örnek verecek olursak;
+                                        <ol>
+                                            <li> Kömürün yanması</li>
+                                            <li> Sütten yogurt ve peynir yapılması</li>
+                                            <li> Demirin paslanması</li>
+                                            <li> Meyvelerin çürümesi</li>
+                                            <li> Un ve sudan hamur yapılması</li>
+                                            <li> Kumdan cam yapılması</li>
+                                            <li> Ekmegin küflenmesi</li>
+                                            <li> Canlıların ölmesi</li>
+                                        </ol>
+                                        <div><a href="#"><img src="images/blog/kimdeg1.jpg"class="img-responsive"></a></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="reak" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Reaksiyon Tipleri</a></h1>
+                                    <p>Bir kimyasal reaksiyonu kısaca bir veya birkaç saf maddenin belli kosullarda degisime ugrayarak baska madde veya maddelere dönüsmesidir.Kimyasal reaksiyonlar kimyasal bagların olusumuna ve/veya kırılmasına yol açan elektron hareketleriyle iliskilidir.<br>
+                                    <h3><a href="#">Sentez (Birlesme) Reaksiyonları</a></h3>
+                                    <p>Bu reaksiyonlarda, iki veya daha fazla element veya bilesik bir araya gelerek, yeni bilesik olustururlar.<br>Bu reaksiyonlar için genel denklem yandaki gibidir:<b> A + B → AB</b><br>Demir (II) sülfit olusturmak için demir ile sülfürün birlesmesi sentez reaksiyonlarına bir örnek olarak verilebilir.
+                                        <div><a href="#"><img src="images/blog/Tep1.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Kimyasal Ayrısma (Analiz) Reaksiyonları</a></h3>
+                                    <p>Sentez reaksiyonlarının tersine bir bilesik yeni bilesikler ve/veya elementlere ayrısır. Bu tür reaksiyonlar, tepkenin kararsız bir bilesik oldugu veya ısı, ısık, elektroliz gibi enerjiler ile kimyasal bagların kırıldıgı durumlarda gerçeklesirler. Genel reaksiyon denklemi yandaki gibidir:<b> AB → A + B</b><br>Suyun elektrolize ugrayarak oksijen ve hidrojen gazına ayrısması bu tür reaksiyonlara örnek olarak verilebilir:
+                                        <div><a href="#"><img src="images/blog/Tep2.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Sübstitüsyon Reaksiyonları</a></h3>
+                                    <p>Bir bilesikteki elementin baska bir elementle yer degistirmesi gerçeklesir. Genel reaksiyon denklemi söyledir:<b> A + BC → AC + B</b><br>Çinko elementinin hidroklorik asitle karıstırılması sübstitüsyon reaksiyonlarına örnek olarak verilebilir. Çinko elementi hidrojen iyonlarıyla yer degistirir:
+                                        <div><a href="#"><img src="images/blog/Tep3.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Metatez Reaksiyonları</a></h3>
+                                    <p>Bu tür reaksiyonlarda ise iki bilesigin baglarının veya iyonlarının farklı bilesikler olusturmak üzere karsılıklı olarak yer degistirmesidir. Genel denklem su sekilde ifade edilir:<b> AB + CD  → AD + CB</b><br>Örnek olarak sodyum klorür ile gümüs nitrat’ın reaksiyonunu verebiliriz. Ürün olarak sodyum nitrat ve gümüs klorür elde ederiz:
+                                        <div><a href="#"><img src="images/blog/tep4.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Asit-Baz Reaksiyonları</a></h3>
+                                    <p>Karsılıklı yer degistirme reaksiyonlarından biri olan bureaksiyon bir asit ve bir baz arasında gerçeklesir. Asit reaktantından gelen Hidronyum iyonları ile Baz reaktantından gelen Hidroksil iyonlarının su ve iyonik bir tuz olusturmasından meydana gelir:<b> HA + BOH → H2O + BA</b><br>Hidrobromik asit (HBr) ile sodyum hidroksit reaksiyonu bir asit-baz reaksiyonudur:
+                                        <div><a href="#"><img src="images/blog/Tep5.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Yükseltgenme-Indirgenme Reaksiyonları</a></h3>
+                                    <p>Redoks reaksiyonlarında atomların yükseltgenme sayıları degisir. Redoks reaksiyonları kimyasal türler arasındaki elektron transferlerinden kaynaklanır. Magnezyum metalinin bakır iyonları içeren bir bilesikle reaksiyonu redoks reaksiyonlarına örnek olabilir:
+                                        <div><a href="#"><img src="images/blog/Tep6.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Yanma Reaksiyonları</a></h3>
+                                    <p>Yanma reaksiyonları bir redoks reaksiyonu türüdür ve yanıcı bir maddenin yükseltgenmis ürünler ve ısı üretmek amacıyla yükseltgeyici (yakıcı) bir madde ile reaksiyonudur. Bir yanma reaksiyonunda genellikle oksijen ve bir baska molekül reaksiyona girerek karbondioksit ve su olusur. Naftalinin yanmasını örnek olarak verebiliriz:
+                                        <div><a href="#"><img src="images/blog/Tep7.jpg" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Izomerizasyon Reaksiyonları</a></h3>
+                                    <p>Bu tür reaksiyonlarda, bir bilesigin yapısal dizilisi degisir ancak net atomik bilesimi aynı kalır.</p>
+                                    <h3><a href="#">Hidroliz Reaksiyonları</a></h3>
+                                    <p>Bir reaktantı su bilesigi olan ayrısma reaksiyonlarının bir türüdür. Genel denklemi su sekildedir:<b> AB + H2O → AH + BOH</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="poli" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Polimerlesme ve Hidroliz</a></h1>
+                                    <h3><a href="#">Polimerlesme:</a></h3>
+                                    <p>Küçük moleküllerin birbiri ardına tekrarlanarak çok büyük moleküller olusturmasına polimerlesme, bu tepkimelere de polimerlesme tepkimesi denir. Bu yenilenen birime monomer denir. Monomerler birleserek dimerleri, olusan dimerler baska bir monomer veya dimerle birleserek trimerleri ve tetramerleri olusturur. 2 çesit Polimerlesme tepkimesi vardır. Bunlar;
+                                        <ol>
+                                            <li><b>Katılma Polimerlesmesi:</b> Katılma polimerlesme tepkimeleri ikili veya üçlü bag içeren doymamıs hidrokarbonların birbirleri ile baglanmasıyla gerçeklesir.</li>
+                                            <li><b>Kondenzasyon Polimerlesmesi:</b> Aynı veya farklı iki monemerin birlesmesi görülür ve bunlar genellikle su gibi küçük moleküllerinde ortaya çıkmasıyla gerçeklesen polimerlesme tepkimeleridir. Örnegin, bir plastik çesidi olan naylon iki farklı monomerin <a href="12sinif.html#konden">kondenzasyon</a> polimerlesmesi ile olusur.</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Hidroliz:</a></h3>
+                                    <p>Suyu olusturan hidrojen ve oksijen elementlerinin birbirinden ayrılması ile sonuçlanan bir islemdir. Bazı kaynaklarda hidroliz, moleküllerin su ilavesiyle daha fazla sayıda parçacık olusturması olarak da geçer. Genellikle organik kimyada farklı fonksiyonel gruplara dönüstürme islemi için kullanılırken, biyokimyada pek çok biyolojik isleyisin bu reaksiyona dayanarak gerçeklestigi gözlenmektedir. Bu parçalanma sırasında parçalanan kısımlardan birine H+ atomu digerine ise OH- grubu baglanır.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="kar" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Karısımlar Nedir</a></h1>
+                                    <p>Karısım, birden fazla maddenin kimyasal özellikleri degismeyecek sekilde bir araya gelmesiyle olusan madde toplulugudur. Saf maddeler element ve bilesiklerden olusur. Fakat; maddelerin çogu ne tek bir elementtir; ne de tek bir bilesiktir. Maddelerin çogu saf madde olmayan karısımlardır. Karısımlar homojen ve heterojen olmak üzere ikiye ayrılır:</p>
+                                    <div><a href="#"><img src="images/blog/karıs.png" class="img-responsive"></a></div>
+                                    <h3><a href="#">Homojen Karısımlar</a></h3>
+                                    <p>Her tarafında aynı özelligi gösteren, tek bir madde gibi gözüken karısımlardır. Karısımı meydana getiren maddeler gözle veya optik aletlerle görülemezler, Homojen karısımlara genel olarak “çözeltiler” de denir. Tuzlu su, sekerli su, alkollü su, çesme suyunu homojen karısıma örnek verebiliriz.</p>
+                                    <h3><a href="#">Heterojen Karısımlar</a></h3>
+                                    <p>Her tarafta aynı özellikler ve içindeki taneciklerin gözle görülebildigi karısımlardır. Heterojen karısımlar kendi aralarında süspansiyon, emülsiyon, aerosol ve kolloid gibi gruplara ayrılır. Yer altından çıkarılan maden filizleri, kaya parçaları, odun parçaları, bir bitki yapragı, sis, ayran, petrol su karısımı, beton parçası, toprak heterojen karısımlara örnek verilebilir. Süt çıplak gözle homojen gibi gözükmesine ragmen mikroskopla bakıldıgında heterojen oldugu gözlenir. Heterojenlik mikroskopla tespit edildigi gibi tyndall ısıgı etkisi ile de tespit edilebilir.
+                                        <ol>
+                                            <li><b>Emülsiyon:</b> Bir sıvıda çözünmeyen baska bir sıvının heterojen olarak bulanık bir sekilde dasılmıs hâlidir. Su–zeytinyagı karısımı, su–benzin karısımı, gibi.</li>
+                                            <li><b>Süspansiyon:</b> Bir sıvıda çözünmeyen katının heterojen olarak dagılmıs seklidir. Su–kum karısımı, su–tebesir tozu karısımı gibi.</li>
+                                            <li><b>Kolloid:</b> Bir maddenin sıvı içerisinde asılı kalmasıyla olusan karısımlara denir. Homojen gibi görünürler, karısımı olusturan maddeler gözle görülemezler, ancak karısımdan ısın demeti veya lazer ısını geçirilerek fark edilebilirler. Duman, jöle, boya gibi maddeler buna örnektir.</li>
+                                            <li><b>Aerosol:</b> Bir katı veya sıvının gaz içinde dagılmasıyla olusan karısımlardır. Sis, sprey, baca dumanı buna örnektir. Aerosol karısımların çogu kolloide örnektir.</li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="ayrı" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Karısımlar Ayrılması</a></h1>
+                                    <h3><a href="#">Tanecik Boyutu Farkından Yararlanılarak Ayırma Yöntemleri</a></h3>
+                                    <p><b>Ayıklama:</b><br>
+                                        <ol>
+                                            <li>Tanecik boyutları, sekilleri, vb. özellikleri farklı olan maddelerin olusturdugu heterojen katı-katı karısımlarını ayırmada kullanılır.</li>
+                                            <li>Mıknatısla ayırma da bir ayıklama yöntemidir.</li>
+                                            <li>Nohutun, fasulyenin, kahve tanelerinin ayrılmasında kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Eleme:</b><br>
+                                        <ol>
+                                            <li>Katı-katı heterojen karısımlarını bilesenlerine ayırmak için tanecik boyutu farkından yararlanılarak yapılan islemdir.</li>
+                                            <li>Eleme isleminde kullanılan araçlara “elek” denir.</li>
+                                            <li>Çakıl taslarının ince kumdan ayrılmasında kullanılır.</li>
+                                            <li>Unun yabancı maddelerden ayrılmasında kullanılır.</li>
+                                            <li>Bakliyatlar paketlenmeden önce elenerek boyutlarına göre ayrılırlar.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Süzme:</b><br>
+                                        <ol>
+                                            <li>Katının sıvı içinde dagılmasıyla olusan heterojen karısımları bilesenlerine ayırmada kullanılır. </li>
+                                            <li>Çay posasını ayırmada süzgeç, makarnayı süzerken kevgir, laboratuarda ise süzgeç kagıdı kullanılır.</li>
+                                            <li>Süzme yöntemi sadece heterojen katı-sıvı karısımlarını ayırmak için degil, katı-gaz karısımlarını ayırmak için de kullanılır. Örn: toz maskeleri, gaz maskeleri, araba ve fabrikadaki hava filtresi..</li>
+                                            <li>Naftalin-su ve tebesir tozu-su karısımlarının da ayrılmasında kullanılır.</li>
+                                            <li>Araba motorundaki parçaları süzmede de kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Diyaliz:</b><br>
+                                        <ol>
+                                            <li>Sıvı-katı heterojen karısımlarda katı, süzgeç kagıdından geçebilecek kadar küçük ise süzme ile ayrılamayacagı için santrifüjleme yapılır. Santrifüjleme ile sonuç alınamayan kolloidal maddeler için diyaliz yöntemi kullanılır. Diyaliz; kolloid karısımların gözenekli zarlardan geçebilmesi temeline dayanan çözümleme ve arıtma yöntemidir.</li>
+                                            <li>Yarı geçirgen bir zar kullanılır.</li>
+                                            <li>Diyaliz makinesiyle kanın temizlenmesi buna örnektir.</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Yogunluk Farkından Yararlanılarak Ayırma Yöntemleri</a></h3>
+                                    <p><b>Çöktürme:</b><br>
+                                        <ol>
+                                            <li>Iki çözelti birbirine karıstırıldıgında çözeltideki iyonların birbirleriyle tepkime vererek suda çözünmeyen katı olusturmasına çökme, olusan katıya çökelek, yapılan isleme ise çöktürme denir.</li>
+                                            <li>Suyun arıtılmasında, içme suyundan demirin uzaklastırılmasında, atık sulardan fosfatların uzaklastırılmasında kullanılır.</li>
+                                            <li>Laboratuarda çöktürme islemi büyük taneciklerle çalısılıyorsa bir beherglas içerisinde, küçük taneciklerle çalısılıyorsa bir santrifüj tüpünde yapılır.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Aktarma (Dekantasyon):</b><br>
+                                        <ol>
+                                            <li>Çöktürme isleminde olusan çökelegin tamamen dibe çökmesi beklenir. Üstte kalan sıvının bulandırılmadan dikkatlice baska bir kaba ayrılmasıdır.</li>
+                                            <li>Bu islemde çökelegin agır, iri taneli ve kristal yapıda olması gerekir.</li>
+                                            <li>Altının saflastırılmasında, zeytinyagının posasının ayrılmasında kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Yüzdürme (Flotasyon):</b><br>
+                                        <ol>
+                                            <li>Sudan hafif, askıda olan katı taneciklerinin su yüzeyine yükseltilerek uzaklastırılmasıdır.</li>
+                                            <li>Bakır, kursun çinko cevherlerinin ayrılmasında kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Çözünürlük Farkından Yararlanılarak Ayırma Yöntemleri</a></h3>
+                                    <p><b>Kristallendirme:</b><br>
+                                        <ol>
+                                            <li>Sıcaklıgın düsmesiyle çözünürlügü azalan maddenin düzgün geometrik sekilli katı parçalar halinde çöktürülmesine kristallendirme denir.</li>
+                                            <li>Iki veya daha çok maddenin çözünürlük farkıyla ayrılmasına ayrımsal kristallendirme denir.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Ekstraksiyon (Özütleme-Çekme):</b><br>
+                                        <ol>
+                                            <li>Katı veya sıvı bir karısımın ilave edilen çözücü yardımıyla karısmıs oldugu diger katı ve sıvıdan ayrılması islemidir.</li>
+                                            <li>Seker pancarından seker, karanfilden karanfil yagı eldesinde kullanılır.</li>
+                                            <li>Homojen karısımlardan ya da katı karısımlarından istenen maddeyi ayırmada kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Kaynama Noktası Farkından Yararlanılarak Ayırma Yöntemleri</a></h3>
+                                    <p><b>Damıtma (Basit Damıtma):</b><br>
+                                        <ol>
+                                            <li>Bir katının çözünmesiyle olusan homojen karısımlarından sadece katı bileseni elde etmek istiyorsak buharlastırma islemi, her iki bileseni elde etmek istiyorsak basit damıtma(destilasyon) yapılır.</li>
+                                            <li>Damıtma ile elde edilen sıvıya destilat denir.</li>
+                                        </ol>
+                                    </p>
+                                    <p><b>Ayrımsal Damıtma:</b><br>
+                                        <ol>
+                                            <li>Kaynama noktaları birbirine yakın homojen sıvı-sıvı karısımlarının bilesenlerine daha saf olarak ayrılması için kullanılır.</li>
+                                            <li>Ayrımsal damıtma ile damıtma arasındaki tek fark ayrımsal damıtma düzeneginde fraksiyon kolunun bulunmasıdır.</li>
+                                            <li>Alkol-su karısımının ayrılmasında kullanılır.</li>
+                                            <li>Petrolün rafinelerde çesitli ürünlere ayrılmasında kullanılır.</li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="cozel" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Çözeltiler Nedir</a></h1>
+                                    <p>Çözeltiler homojen karısımlardır. Iki ya da daha fazla maddenin herhangi bir oranda bir araya gelerek olusturdukları homojen karısımlardır.<br> Bir maddenin baska bir madde içinde gözle görülemeyecek kadar küçük tanecikler halinde dagılarak,homojen karısım olusturması olayına çözünme,elde edilen karısıma da çözelti denir. Bir çözeltiyi olusturan maddelerden genellikle çok olanına çözücü, az olanına da çözünen denir. Dogada birçok çözücü ve çözünen madde vardır. Bilinen en iyi çözücü su'dur. Birçok katı,sıvı ve gaz maddeler suda çözünürler. Çay,deniz suyu,kola,mürekkepli su,alkollu su vb. çözeltiye örnek verilebilir. Çözünme erime ile karıstırılabilinir.
+                                        <div><a href="#"><img src="images/blog/cozel2.png" class="img-responsive"></a></div>
+                                    </p>
+                                    <h3><a href="#">Çözeltilerin Özellikleri</a></h3>
+                                    <p>Bir maddenin baska bir madde tanecikleri arasında, iyonlar ya da moleküller halinde, homojen olarak dagılmasına çözünme denir. Bagıl miktarları çözünürlük sınırına kadar degisebilen iki ya da daha çok maddeden olusan homojen karısıma çözelti denir. Çözeltiler iki kısımdan olusmaktadır. Çözeltinin fiziksel halini belirleyen ve miktarı fazla olan bilesene çözücü, miktarı az olan bilesene ise çözücü denir. Saf maddelerin kendine özgü erime ve kaynama noktaları vardır.</p>
+                                    <h3><a href="#">Erime Noktası</a></h3>
+                                    <p>Katı bir maddenin ısı enerjisi alarak sıvı hale geçmesi olayıdır. Katı maddeler ısıtıldıkları zaman taneciklerin kinetik enerjileri artar ve bundan dolayı tanecikler arasındaki çekim kuvveti azalır. Böylece tanecikler birbirinden uzaklasır ve serbest hale gelir. Katı bir maddenin sıvı hale geçmeye basladıgı sıcaklıga ise erime sıcaklıgı denir. Erime süresince maddenin sıcaklıgı sabit kalır. Bu arada verilen ısı enerjisi cismin sıcaklıgını yükseltmede degil de hal degistirmesinde kullanılır. Cisim tamamen eridikten sonra ısı verilmeye devam edildiginde ise sıvı hale geçen cismin sıcaklıgı tekrar yükselmeye baslar. Bir katı çözeltinin erimeye basladıgı sıcaklık, saf çözücüsünün erime sıcaklıgından düsüktür.</p>
+                                    <h3><a href="#">Donma Noktası</a></h3>
+                                    <p>Sıvı bir maddenin ısı enerjisi vererek katı hale dönüsmesine donma denir. Sıvının katı hale geçmeye basladıgı sıcaklık noktasına ise donma noktası denir. Donma olayı süresince sıcaklık sabit kalır. Bir maddenin sabit basınçta erime ve donma noktaları aynıdır. Buzun 0 °C eriyip, suyun 0 °C’ de donması gibi.</p>
+                                    <h3><a href="#">Buharlasma Noktası</a></h3>
+                                    <p>Sıvı maddelerin çevreden aldıgı ısı sonucunda, sıvıyı olusturan taneciklerin kinetik enerjileri artar. Yüzeye yakın ve yüzeye dik olan tanecikler bu kinetik enerji sayesinde, çevrenin çekim kuvvetini yenerek sıvı fazdan gaz fazına geçerler. Bu olaya buharlasma denir.</p>
+                                    <h3><a href="#">Yogunlasma Noktası</a></h3>
+                                    <p> Bir maddenin gaz halden sıvı hale geçmesine yogunlasma, yogunlasmanın meydana geldigi sıcaklıga yogunlasma sıcaklıgı denir.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+    <section id="fak" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-content overflow">
+                                    <h1 class="post-title bold"><a href="#">Çözünürlüge Etki Eden Faktörler</a></h1>
+                                    <h3><a href="#">Katı ve Sıvıların, Sıvılardaki Çözünürlügüne Etki Eden Faktörler : </a></h3>
+                                    <p>
+                                        <ol>
+                                            <li>Katı ve sıvıların, sıvılardaki çözünürlügü genellikle endotermiktir. </li>
+                                            <li>Endotermik çözünen katı ve sıvılar için, sıcaklık arttıkça çözünürlük artar.</li>
+                                            <li>Ekzotermik çözünen katı ve sıvılar için, sıcaklık arttıkça çözünürlük azalır.</li>
+                                            <li>Katı ve sıvıların, sıvılardaki çözünürlügüne basıncın etkisi yoktur.</li>
+                                        </ol>
+                                    </p>
+                                    <h3><a href="#">Gazların, Sıvılardaki Çözünürlügüne Etki Eden Faktörler :</a></h3>
+                                    <p>
+                                        <ol>
+                                            <li>Gazların, sıvılardaki çözünürlügü ekzotermiktir.</li>
+                                            <li>Sıcaklık arttıkça gazların, sıvılardaki çözünürlügü azalır.</li>
+                                            <li>Basınç arttıkça gazların, sıvılardaki çözünürlügü artar.</li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>                
+            </div>
+        </div>
+    </section>
+
+<script language="javascript" src="http://is.sitekodlari.com/yukaricik1.js"></script>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="testimonial bottom">
+                        <h2>Günün Sözü</h2>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img src="images/home/tzu.jpg" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>Bilebilecegimiz bir sey varsa o da hiçbir sey bilmedigimizdir ve az bilgi tehlikeli bir seydir.</blockquote>
+                                <h3><a href="#">- Chuang-Tzu</a></h3>
+                            </div>
+                         </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <a href="#"><img src="images/home/bacon.jpg" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>Var olmaya deger her sey bilinmeye de degerdir; Çünkü bilgi varlıgın bir simgesidir, onda iyi ve kötü aynı anda bulunur.</blockquote>
+                                <h3><a href="">- Francis Bacon</a></h3>
+                            </div>
+                        </div>      
+                    </div> 
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="contact-info bottom">
+                        <h2>Iletisim</h2>
+                        <address>
+                        E-mail: <a href="mailto:someone@example.com">email@email.com</a> <br> 
+                        Telefon: +0 (123) 456 7890 <br> 
+                        Fax: +0 (123) 456 7891 <br> 
+                        </address>
+
+                        <h2>Adres</h2>
+                        <address>
+                        Ahmet Vefik Pasa Caddesi<br> 
+                        No: 22 <br> 
+                        Fatih/Istanbul<br> 
+                        Türkiye <br> 
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="contact-form bottom">
+                        <h2>Mesaj Gönder</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Isim">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Mesajınız"></textarea>
+                            </div>                        
+                            <div class="form-group">
+                                <input type="submit" name="Gönder" class="btn btn-submit" value="Gönder">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p> Copyright &copy; Kimya'nın Mucizeleri 2016. Tüm hakları saklıdır.</p>
+                        <p>Tasarım by <a target="_blank" href="index.html">MeryemBayram</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>    
+</body>
+</html>
